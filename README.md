@@ -56,7 +56,7 @@ The user interface is implemented using Java Swing and allows users to input veh
 The project includes unit tests for the Battery and DrivingConditions classes using JUnit 4. These tests ensure that the methods and calculations work as expected for various input values and scenarios.
 
 ### Usage
-To run the application, simply compile and run the RangeEstimatorApp class, which contains the main method. The application will display a graphical user interface where you can enter the vehicle information, battery capacity, and driving conditions. After entering the information, click on the "Calculate Range" button to receive the estimated range based on the input values.
+To run the application, simply compile and run the EVRangeEstimatorGUI class, which contains the main method. The application will display a graphical user interface where you can enter the vehicle information, battery capacity, and driving conditions. After entering the information, click on the "Calculate Range" button to receive the estimated range based on the input values.
 
 ### Dependencies
 This project requires Java SE Development Kit 8 or higher and JUnit 4 for unit testing.
