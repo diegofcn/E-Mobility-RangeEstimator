@@ -1,15 +1,15 @@
 package com.example.rangeestimatoremobility;
 
 public class ElectricVehicle {
-    private String make;
+    private String brand;
     private String model;
     private double batteryCapacity; // in kWh
     private double energyConsumption; // in Wh/km
     private Battery battery; // Add a Battery attribute
 
     // Constructor
-    public ElectricVehicle(String make, String model, double batteryCapacity, double energyConsumption, Battery battery) {
-        this.make = make;
+    public ElectricVehicle(String brand, String model, double batteryCapacity, double energyConsumption, Battery battery) {
+        this.brand = brand;
         this.model = model;
         this.batteryCapacity = batteryCapacity;
         this.energyConsumption = energyConsumption;
@@ -18,7 +18,7 @@ public class ElectricVehicle {
 
     // Getters
     public String getMake() {
-        return make;
+        return brand;
     }
 
     public String getModel() {
@@ -35,7 +35,7 @@ public class ElectricVehicle {
 
     // Setters
     public void setMake(String make) {
-        this.make = make;
+        this.brand = make;
     }
 
     public void setModel(String model) {

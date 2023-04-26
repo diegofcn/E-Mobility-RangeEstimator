@@ -26,7 +26,7 @@ public class EVRangeEstimatorGUI extends Application {
         grid.setVgap(10);
         grid.setPadding(new Insets(25, 25, 25, 25));
 
-        Label makeLabel = new Label("Vehicle Make:");
+        Label makeLabel = new Label("Vehicle Brand:");
         grid.add(makeLabel, 0, 0);
         TextField makeTextField = new TextField();
         grid.add(makeTextField, 1, 0);
