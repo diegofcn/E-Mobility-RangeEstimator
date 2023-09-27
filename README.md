@@ -1,6 +1,5 @@
 # E-Mobility-RangeEstimator
-The Electric Vehicle Range Estimator project is an application that allows users to estimate the remaining range of an electric vehicle based on the driving conditions.
-Electric Vehicle Range Estimator
+
 The Electric Vehicle Range Estimator project is an application that allows users to estimate the remaining range of an electric vehicle based on the driving conditions. The application takes into account factors such as the battery's state of charge, energy consumption rate, and driving conditions (weather, road, and traffic conditions) to provide an estimation of the remaining range.
 
 ![before](before.png)
